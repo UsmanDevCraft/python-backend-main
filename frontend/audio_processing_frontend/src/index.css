@@ -1,0 +1,12 @@
+*{
+  font-family: Gilroy;
+  color : white;
+  text-align: center;
+};
+::selection{
+  background-color: #285E61;
+  color: black;
+}
+body{
+  background-color: #1A202C;
+}
