@@ -38,7 +38,7 @@ const UploadAudio = () => {
         }
       }
     };
-    console.log(selectedFile);
+    // console.log(selectedFile);
   
      const handleSeparateButtonClick = async () => {
       const formData = new FormData();

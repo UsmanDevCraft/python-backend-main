@@ -7,12 +7,15 @@ import {
   Route
 } from "react-router-dom";
 import AudioRecorder from './Components/AudioRecorder';
+import Navbar from './Components/Navbar';
+import About from "./Components/About"
 
 
 function App() {
   return (
     <>
       <Router>
+          <Navbar />
           <div className='container'>
             <Switch>
                 <Route exact path="/">
@@ -23,6 +26,9 @@ function App() {
                 </Route>
                 <Route exact path="/AudioRecorder">
                   <AudioRecorder/>
+                </Route>
+                <Route exact path="/about">
+                  <About />
                 </Route>
             </Switch>
           </div>
